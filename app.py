@@ -25,8 +25,3 @@ st.header("Hypothesis")
 st.text("")
 
 st.write(df)
-
-
-fig, ax = plt.subplots(figsize=(10, 4))
-
-ax.plot()
