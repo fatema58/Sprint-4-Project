@@ -7,7 +7,7 @@ st.title("Sprint-4-Project")
 st.header("Introduction")
 st.text("This project will analyze vehicles_US dataframe to analyze the number of days a vehicle is advertised")
 
-df = pd.read_csv("/Users/Fatema/Sprint-4-Project/vehicles_us.csv") 
+df = pd.read_csv("vehicles_us.csv") 
 # To display the DataFrame in Streamlit
 st.dataframe(df)
 
