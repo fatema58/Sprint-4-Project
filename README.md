@@ -9,7 +9,7 @@ Hypothesis
 on average, the older a vehicle, the lower the number of ad placed;
 on average, the higher the price of a vehicle, the higher the days ad was placed;
 there is no corelation  between type o f vehicle and no of days ad was placed
-the higher the price , the higher the age of vehicle.
+vehicles with lower age has higher values thus they are listed longer
 
 This project's repo includes the following files:
 The project's final jupyter notebook (EDA.ipynb);
@@ -34,4 +34,4 @@ There is clear connection between price and age of vehicle. the lower the age, t
 The logbook of this project can be found here (Sprint-4-Project tab).
 Total time spent on the project: 28 hours with a daily average of 2 hours working for 14 days.
 please run the code in 'streamlit run app.py' in the app.py terminal.
-link to render: http://0.0.0.0:10000/
+link to render: https://sprint-4-project-wqo4.onrender.com
