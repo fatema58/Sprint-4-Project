@@ -41,9 +41,10 @@ st.plotly_chart(fig1)
 st.text("The data reflects real life situation: the more recent a car's model, the higher its price.")
 
 
-st.header('Dsiplaying days_listed column as a histogram using matplotlib')
+st.header('Displaying days_listed column as a histogram using matplotlib')
 df['days_listed'].hist(bins=100)
 plt.title("Length of a vehicle's ad listed, in days")
 plt.xlabel('days listed')
 plt.ylabel('no of vehicles');
+st.pyplot(plt)
 st.text('A lifetime of an ad in this dataset ranges from 0 up to around 250 days, the distribution is skewed towards large positive values. A typical ad is placed for around 30-40 days, so around 1 month. Vehicles with higher values can be considered outliers')
