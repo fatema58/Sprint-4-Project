@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 import plotly.express as px
+import matplotlib.pyplot as plt
 
 st.title("Sprint-4-Project")
 st.header("Introduction")
@@ -23,17 +24,26 @@ st.text("The average and median age of a vehicle in this data set is similar - a
 
 
 st.header("Age vs Price")
-fig1 = px.scatter(df, x='price', y='age_in_years', 
-                 title='Age vs Price of vehicles',
-                 labels={'price': 'Price', 'age_in_years': 'Age in years'},
-                 template='plotly_white')
+show_trendline = st.checkbox('Show Trendline')
+# Scatter plot
+if show_trendline:
+    fig1 = px.scatter(df, x='price', y='age_in_years', 
+                      trendline='ols',  # Ordinary Least Squares regression
+                      title='Age vs Price of vehicles',
+                      labels={'price': 'Price', 'age_in_years': 'Age in years'},
+                      template='plotly_white')
+else:
+    fig1 = px.scatter(df, x='price', y='age_in_years', 
+                      title='Age vs Price of vehicles',
+                      labels={'price': 'Price', 'age_in_years': 'Age in years'},
+                      template='plotly_white')
 st.plotly_chart(fig1)
 st.text("The data reflects real life situation: the more recent a car's model, the higher its price.")
 
-display_text = st.checkbox('Display greeting text')
-if display_text:
-    st.write('Hello, welcome to my Streamlit app!')
-else:
-    st.write('Select the checkbox to display the greeting text.')
 
-
+st.header('Dsiplaying days_listed column as a histogram using matplotlib')
+df['days_listed'].hist(bins=100)
+plt.title("Length of a vehicle's ad listed, in days")
+plt.xlabel('days listed')
+plt.ylabel('no of vehicles');
+st.text('A lifetime of an ad in this dataset ranges from 0 up to around 250 days, the distribution is skewed towards large positive values. A typical ad is placed for around 30-40 days, so around 1 month. Vehicles with higher values can be considered outliers')
