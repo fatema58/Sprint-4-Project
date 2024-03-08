@@ -1,5 +1,5 @@
 Exploratory Data Analysis Project
-Factors effecting the ad analysis of the vehicles_us dataset.
+Analysis of Factors affecting Advertisement of Vehicles.
 
 Goal
 Prepare a report for the vehicles_us dataset to determine whether age, mileage, condition, transmission type, and color influence the advertisement of a vehicle based on the data collected over the last few years.

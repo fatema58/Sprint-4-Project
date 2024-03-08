@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 import matplotlib.pyplot as plt
 
-st.title("Sprint-4-Project")
+st.title("Analysis of Factors affecting Advertisement of Vehicles")
 st.header("Introduction")
 st.text("This project will analyze vehicles_US dataframe to analyze the number of days a vehicle is advertised")
 
