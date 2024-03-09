@@ -1,2 +1,7 @@
 Hello Ms Nosovo. Its nice to meet you. Unfortunately i dontsee the error you have mentioned. i have run the EDA.ipynb file and stremlit and render.
 i have attached the streamlit screenshot as image.png. 
+i have also attached the render screenshot as image-1.png.
+please find them attached on the file explorer section.
+thank you for your feedback and giudance.
+Have a great weekned.
+With best regards, Fatema 

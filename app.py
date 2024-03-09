@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 import plotly.express as px
-import matplotlib.pyplot as plt
+import matplotlib as plt
 
 st.title("Analysis of Factors affecting Advertisement of Vehicles")
 st.header("Introduction")
