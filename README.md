@@ -35,3 +35,5 @@ The logbook of this project can be found here (Sprint-4-Project tab).
 Total time spent on the project: 28 hours with a daily average of 2 hours working for 14 days.
 please run the code in 'streamlit run app.py' in the app.py terminal.
 link to render: https://sprint-4-project-wqo4.onrender.com
+
+![alt text](image-1.png)

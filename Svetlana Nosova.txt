@@ -1,0 +1,2 @@
+Hello Ms Nosovo. Its nice to meet you. Unfortunately i dontsee the error you have mentioned. i have run the EDA.ipynb file and stremlit and render.
+i have attached the streamlit screenshot as image.png. 
